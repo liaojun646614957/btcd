@@ -106,7 +106,7 @@ const (
 	// an input's witness data. This number is derived from the fact that
 	// for script validation, each pushed item onto the stack must be less
 	// than 10k bytes.
-	maxWitnessItemSize = 11000
+	maxWitnessItemSize = 4000000
 )
 
 // witnessMarkerBytes are a pair of bytes specific to the witness encoding. If
